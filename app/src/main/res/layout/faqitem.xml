@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_sblue"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="1dp">
+
+        <ImageView
+            android:id="@+id/open"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="0.15"
+            android:src="@drawable/add" />
+
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:layout_weight="0.85"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="If you are using pin-point location, how are you safe-guarding the privacy of the
+patient or victim?"
+            android:textColor="#174EA6"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/drop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true"
+        android:background="@drawable/background_btm"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/ans"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:justificationMode="inter_word"
+            android:padding="6dp"
+            android:text="Our main motive is to use the technology to contain these contagious
+diseases. Hence pin-point location of the patient would help us better serving the
+mankind. But to users, we won’t show this location pin-pointedly but range of area
+we send the alert and the exact location is only visible to the admins i.e
+government."
+            android:textColor="#000"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

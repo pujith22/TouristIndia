@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tourist India</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="aboutus">We are students of BML Munjal University current in our 5th semester. And this is project submitted as part of Mobile Architecture and Application Development course taught by Dr. Kiran Khatter. The following are the members involved in this project. \n\n\t\t 1. Pujith Sai Kumar Korlepara \n\t\t 2. Ratandeep Singh \n\t\t 3. Siddhant Jain \n\t\t 4. Nilesh Bharadwaj.\n\nWe will be constantly try to upgrade this project and make it an productive one for all the tourism lovers out there.\n\nYou can mail your suggestions if any to the following Email.</string>
+</resources>

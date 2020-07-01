@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListActivity">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+
+        android:layout_marginTop="15sp"
+        android:layout_marginBottom="10sp"
+        android:text="Places you can visit in the order of their popularity:"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <!--
+    <EditText
+      android:id="@+id/state2"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_toRightOf="@+id/state1"/>
+    <TextView
+      android:id="@+id/city1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/state1"/>
+
+    <EditText
+      android:id="@+id/city2"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_toRightOf="@+id/city1"
+      android:layout_below="@+id/state2"/>
+
+    <Button
+      android:id="@+id/showplace"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/city2"/>
+
+    <fragment
+      android:name="com.example.project1.placefrag"
+      android:id="@+id/listplace"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_below="@id/showplace" />
+       -->
+    <ListView
+        android:id="@+id/listplace"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_below="@id/text"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="25sp"
+
+        />
+    <!-- <FrameLayout
+         android:id="@id/listplace"
+         android:layout_width="match_parent"
+         android:layout_height="550dp"
+         android:layout_below="@id/showplace" -->
+    <Button
+        android:id="@+id/mapButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/listplace"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Show on Google Maps"
+        android:textSize="22sp" />
+
+</RelativeLayout>

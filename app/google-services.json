@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "376715987769",
+    "firebase_url": "https://tourist-india-ca086.firebaseio.com",
+    "project_id": "tourist-india-ca086",
+    "storage_bucket": "tourist-india-ca086.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:376715987769:android:8784e528be4f8be74df6e8",
+        "android_client_info": {
+          "package_name": "com.example.TouristIndia"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzZpkRtupr0zoRruA1L5WvFjDLOTvOYoA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "376715987769-mbhn1dfbv8t5ko7mk226qli1c4knc77c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
